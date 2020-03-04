@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Aurora Template', // Title for your website.
-  tagline: 'A website for testing',
+  tagline: 'A React Native template',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -31,7 +31,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'aurora-template',
-  organizationName: 'facebook',
+  organizationName: 'Riccardo Lorenzi',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -39,9 +39,9 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    // {doc: 'doc4', label: 'API'},
+    // {page: 'help', label: 'Help'},
+    // {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
@@ -54,8 +54,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#16129f',
-    secondaryColor: '#0f0c6f',
+    primaryColor: '#7bbb5e',
+    secondaryColor: '#017ed5',
   },
 
   /* Custom fonts for website */
@@ -73,7 +73,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Developed by Riccardo Lorenzi`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
