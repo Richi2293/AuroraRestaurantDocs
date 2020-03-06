@@ -65,7 +65,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
             <Button href="/docs/doc1">Read the documentation</Button>
-            <Button href={docUrl('doc1.html')}>Purchase</Button>
+            <Button href={docUrl('doc1.html')}>Purchase on CodeCanyon.net</Button>
             {/* <Button href={docUrl('doc1.html')}>Example Link</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
           </PromoSection>
@@ -198,7 +198,7 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
+          {/* <Features /> */}
           {/* <FeatureCallout /> */}
           {/* <LearnHow /> */}
           {/* <TryOut /> */}
