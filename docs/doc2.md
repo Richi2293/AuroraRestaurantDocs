@@ -3,31 +3,40 @@ id: doc2
 title: Project structure
 ---
 
+This is the structure of the React Native project:
 
-
-AuroraRestaurant/ <br>
-├── \__tests__ <br>
-├── android <br>
-├── ios <br>
-├── node_modules <br>
-├── src <br>
-├── .buckconfig <br>
-├── .eslintrc.js <br>
-├── .flowconfig <br>
-├── .gitattributes <br>
-├── .gitignore <br>
-├── .prettierrc.js <br>
-├── .watchmanconfig <br>
-├── app.json <br>
-├── babel.config.js <br>
-├── index.js <br>
-├── jest.config.js <br>
-├── metro.config.js <br>
-├── package.json <br>
-├── react-native.config.js <br>
-├── README.md <br>
-├── tsconfig.json <br>
-└── yarn.lock <br>
-
+```
+AuroraRestaurant/ 
+├── \__tests__ 
+├── android 
+├── ios 
+├── node_modules 
+├── src 
+    └── api (fake api data)
+    └── assets (assets files)
+    └── components (components)
+    └── screens (screens)
+    └── translations (file of translations )
+    └── app.tsx (entry file for app)
+    └── settings.tsx (settings, colors, font sizes, ecc...)
+    └── themeStyles.tsx (global file style)
+├── .buckconfig 
+├── .eslintrc.js 
+├── .flowconfig 
+├── .gitattributes 
+├── .gitignore 
+├── .prettierrc.js 
+├── .watchmanconfig 
+├── app.json 
+├── babel.config.js 
+├── index.js 
+├── jest.config.js 
+├── metro.config.js 
+├── package.json 
+├── react-native.config.js 
+├── README.md 
+├── tsconfig.json 
+└── yarn.lock 
+```
 
 
